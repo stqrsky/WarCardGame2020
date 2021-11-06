@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         else if leftNumber < rightNumber {
             // Right side wins
             rightScore += 1            
-            leftScoreLabel.text = String(rightScore)
+            rightScoreLabel.text = String(rightScore)
         }
         else {
             // Tie
