@@ -43,6 +43,9 @@
                                         <rect key="frame" x="94" y="200" width="82" height="31"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="dealbutton"/>
+                                        <connections>
+                                            <action selector="dealTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f8N-eg-RvJ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <variation key="heightClass=compact-widthClass=compact" spacing="20"/>
@@ -101,6 +104,12 @@
                             <constraint firstAttribute="bottom" secondItem="uCw-uU-FQw" secondAttribute="bottom" id="xLc-Eb-2dz"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="leftImageView" destination="l5T-GN-Iwn" id="zAB-kf-2kV"/>
+                        <outlet property="leftScoreLabel" destination="eC2-bO-DMW" id="06s-5c-lwV"/>
+                        <outlet property="rightImageView" destination="QIm-wJ-tdI" id="FU9-Qx-L4H"/>
+                        <outlet property="rightScoreLabel" destination="ALk-YV-nI5" id="XGR-9a-dfB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
